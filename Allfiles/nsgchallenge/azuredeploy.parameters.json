@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "networkWatcherName": {
+            "value": "NetworkWatcher_eastus2"
+        },
+        "flowLogName": {
+            "value": "FlowLog1"
+        },
+        "location": {
+            "value": "East US 2" 
+        },
+        "existingNSG": {
+            "value": "lldemonsg01" 
+        },
+        "retentionDays": {
+            "value": 0
+        },
+        "flowLogsVersion": {
+            "value": 2
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        }
+    }
+}

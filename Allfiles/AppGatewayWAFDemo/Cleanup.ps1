@@ -1,0 +1,1 @@
+Remove-AzResourceGroup -Name "LL-Demo-RG"
