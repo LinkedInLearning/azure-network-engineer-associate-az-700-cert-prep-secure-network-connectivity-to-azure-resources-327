@@ -11,7 +11,7 @@
   "parameters": {
     "networkWatcherName": {
       "type": "string",
-      "defaultValue": "NetworkWatcher_eastus2",
+      "defaultValue": "[format('NetworkWatcher_{0}', parameters('location'))]",
       "metadata": {
         "description": "Name of the Network Watcher attached to your subscription. Format: NetworkWatcher_<region_name>"
       }
