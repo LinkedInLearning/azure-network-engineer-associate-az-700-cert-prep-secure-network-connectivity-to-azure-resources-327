@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vmName1": {
-            "value": "Srv-workload-01"
+            "value": "ccwdvm01"
         },
         "nicName1": {
-            "value": "Srv-workload-01nic"
+            "value": "ccwdvm01nic"
         },
         "vmName2": {
-            "value": "Srv-workload-02"
+            "value": "ccwdvm02"
         },
         "nicName2": {
-            "value": "Srv-workload-02nic"
+            "value": "ccwdvm02nic"
         },
         "vmSize": {
             "value": "Standard_DS1_v2"
         },
         "adminUsername": {
-            "value": "TestUser"
+            "value": "azureadmin"
         },
         "adminPassword": {
             "value": "TestPa$$w0rd!"

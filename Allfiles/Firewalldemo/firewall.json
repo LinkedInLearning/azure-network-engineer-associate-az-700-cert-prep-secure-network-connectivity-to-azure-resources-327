@@ -35,7 +35,7 @@
       }
     },
   "variables": {
-    "virtualNetworkName": "Test-FW-VN",
+    "virtualNetworkName": "ccwdvnet02",
     "subnetName": "Workload-SN",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "computeApiVersion": "2018-06-01",

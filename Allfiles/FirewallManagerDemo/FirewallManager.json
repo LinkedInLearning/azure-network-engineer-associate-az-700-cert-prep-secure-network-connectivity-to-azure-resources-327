@@ -47,10 +47,10 @@
       }
     },
   "variables": {
-    "virtualNetworkName": "Spoke-01",
-    "subnetName": "Workload-01-SN",
-    "virtualNetworkName2": "Spoke-02",
-    "subnetName2": "Workload-02-SN",
+    "virtualNetworkName": "ccwdvnet01",
+    "subnetName": "ccwdvn01-sub1",
+    "virtualNetworkName2": "ccwdvnet02",
+    "subnetName2": "ccwdvn02-sub1",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "subnetRef2": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName2'), variables('subnetName2'))]",
     "computeApiVersion": "2018-06-01",
